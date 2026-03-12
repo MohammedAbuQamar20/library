@@ -1,0 +1,242 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+.app-bar {
+       
+  width: 100%;
+  /* margin: 0 auto; */
+
+}
+header{
+   background: black;
+   height: 60px;
+   
+}
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.app-bar a {
+ 
+  
+  text-decoration: none;
+  margin-right: 10px;
+   
+}
+.app-bar #a{
+   float: left;
+    
+    color:white; 
+    margin: 20px 90px;
+    
+}
+nav{
+  float: right;
+}
+nav ul{
+  margin: 0px;
+  padding-right: 70px;
+  list-style: none;
+}
+nav li{
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+
+/* //متحواء الصفحة */
+.search{
+  padding-top: 10px;
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(200, 244, 244);
+  padding: 30px;
+  
+  
+}
+.search h2{
+  text-align: center;
+}    
+.search .search_text{
+  
+  width: 650px;
+  height: 33px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-radius: 4px;
+  padding: 8px;
+}
+.search .icon_all  {
+  margin: 0 auto;
+  width: 230px;
+  padding-top: 30px;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-large {
+  font-size: 20px;
+}
+.search .number_all{
+  margin: 0 auto;
+  width: 220px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search .name_all{
+  margin: 0 auto;
+  width: 260px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_library{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+
+}
+.about_library h2,p{
+text-align: center;
+}
+.categories{
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(241, 239, 239);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+
+  justify-content: space-around;
+  
+  align-items: center;
+  
+ 
+}
+.head1{
+text-align: center;
+position: relative;
+top: 85px;
+} 
+.categories .action, .drama , .romantic{
+width: 250px;
+height: 100px;
+text-align: center;
+background-color: white;
+display: inline-flex;
+
+  justify-content: center;
+  align-items: center;
+
+}
+.head2{
+  padding-top: 30px;
+  text-align: center;
+}
+.books{
+  display: flex;
+
+  justify-content: space-around;
+  
+  align-items: center;
+  padding: 30px;
+ margin-bottom: 100px;
+ 
+  
+}
+.book1 {
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 2px;
+  width: 190px;
+  height: 280px;
+  margin-bottom: 200px;
+  margin-left: 400px;
+  
+}
+.book1_descrbtion  {
+  border: 1px solid rgb(204, 195, 195);
+  padding-left: 10px;
+  position: relative;
+  bottom:3px; 
+  border-radius: 2px; 
+  padding-bottom: 10px;
+}
+.book1_descrbtion  button{
+  width: 90%;
+  height: 30px;
+  background-color: black;
+  
+  color: white;
+  cursor: pointer;
+  
+  
+}
+/* ////////////////////////////////////////////////// */
+.book2{
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 2px;
+  width: 190px;
+  height: 280px;
+  margin-bottom: 200px;
+  
+}
+.book2_descrbtion{
+  border: 1px solid rgb(204, 195, 195);
+  padding-left: 10px;
+  position: relative;
+  bottom:3px; 
+  border-radius: 2px; 
+  padding-bottom: 10px;
+}
+.book2_descrbtion button{
+  width: 90%;
+  height: 30px;
+  background-color: black;
+  
+  color: white;
+  cursor: pointer;
+  
+}
+/* ///////////////////////////////////////////////////////// */
+.book3{
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 2px;
+  width: 190px;
+  height: 280px;
+  margin-bottom: 200px;
+  margin-right: 400px;
+  
+}
+.book3_descrbtion{
+  border: 1px solid rgb(204, 195, 195);
+  padding-left: 10px;
+  position: relative;
+  bottom:3px; 
+  border-radius: 2px; 
+  padding-bottom: 10px;
+}
+.book3_descrbtion button{
+  width: 90%;
+  height: 30px;
+  background-color: black;
+  
+  color: white;
+  cursor: pointer;
+  
+}
+
+  
